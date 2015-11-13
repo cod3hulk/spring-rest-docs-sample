@@ -1,0 +1,58 @@
+[[resources-superheroes]]
+
+== Superheroes
+
+Superheroes are used for storing and retrieving superhero informations
+
+[[resources-superhero-create]]
+=== Create a superhero
+
+A `POST` request is used to create a superhero
+
+==== Request structure
+
+include::{snippets}/superhero-create/request-fields.adoc[]
+
+==== Example request
+
+include::{snippets}/superhero-create/curl-request.adoc[]
+
+==== Example response
+
+include::{snippets}/superhero-create/http-response.adoc[]
+
+
+[[resources-superhero-find]]
+=== Get a superhero
+
+A `GET` request is used to retrieve a single superhero by id
+
+==== Example request
+
+include::{snippets}/superhero-find/curl-request.adoc[]
+
+==== Response structure
+
+include::{snippets}/superhero-find/response-fields.adoc[]
+
+
+==== Example response
+
+include::{snippets}/superhero-find/http-response.adoc[]
+
+[[resources-superhero-find-all]]
+=== Get all superheroes
+
+A `GET` request used to retrieve all superheroes
+
+==== Example request
+
+include::{snippets}/superhero-find-all/curl-request.adoc[]
+
+==== Response structure
+
+include::{snippets}/superhero-find-all/response-fields.adoc[]
+
+==== Example response
+
+include::{snippets}/superhero-find-all/http-response.adoc[]

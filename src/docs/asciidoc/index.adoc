@@ -1,0 +1,22 @@
+= Superhero Service
+Tomas Ave <tomave82@gmail.com>
+:revnumber: {version}
+:revdate: {localdate}
+:doctype: book
+:toc: left
+:source-highlighter: highlightjs
+
+[overview]
+= Overview
+Basic CRUD service for creating and retrieving superheroes.
+
+= API Guide
+
+include::api-guide/status-codes.adoc[]
+
+include::api-guide/http-verbs.adoc[]
+
+
+= Resources
+
+include::resources/superheroes.adoc[]
